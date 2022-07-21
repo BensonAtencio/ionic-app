@@ -12,6 +12,8 @@ export class RegisterPage implements OnInit {
   username: string = "";
   email: string = "";
   bdate: any = "";
+  mgender: string ="";
+  fgender: string ="";
   password: string = "";
   rpassword: string = "";
 
@@ -27,6 +29,18 @@ export class RegisterPage implements OnInit {
   }else if(this.bdate==""){
     const toast = this.toastCtrl.create({
       message: 'Birthdate cannot be empty',
+      duration: 3000
+    });
+    (await toast).present();
+  }else if(this.mgender==""){
+    const toast = this.toastCtrl.create({
+      message: 'Gender cannot be empty',
+      duration: 3000
+    });
+    (await toast).present();
+  }else if(this.fgender==""){
+    const toast = this.toastCtrl.create({
+      message: 'Gender cannot be empty',
       duration: 3000
     });
     (await toast).present();
