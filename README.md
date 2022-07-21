@@ -1,3 +1,3 @@
 # ionic-app
 
-A simple forms using ionic framework
+A simple form using ionic framework
