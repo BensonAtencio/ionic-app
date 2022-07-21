@@ -2,7 +2,7 @@
 
 A simple form using ionic framework
 
-I only have a plain design but to make up for that i make sure that the forms won't accept empty inputs just like what real forms would do.
+I only have a plain design but to make up for that I make sure that the forms won't accept empty inputs just like what real forms would do.
 
 ![Screenshot 2022-07-21 153333](https://user-images.githubusercontent.com/108327522/180156830-6d81393a-e181-4ea4-9cc5-3514d72e81d6.jpg)
 ![Screenshot 2022-07-21 153318](https://user-images.githubusercontent.com/108327522/180156837-8ca018ba-bb74-4878-966e-fa12d3b9bc67.jpg)
