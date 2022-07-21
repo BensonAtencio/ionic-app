@@ -36,6 +36,10 @@ export class LoginPage implements OnInit {
     this.router.navigate(['register'])
   }
 
+  forgot(){
+    this.router.navigate(['forgot'])
+  }
+
   ngOnInit() {
   }
 
