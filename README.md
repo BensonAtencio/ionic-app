@@ -4,14 +4,15 @@ A simple form using ionic framework
 
 I only have a plain design but to make up for that I make sure that the forms won't accept empty inputs just like what real forms would do.
 
-![Screenshot 2022-07-21 153333](https://user-images.githubusercontent.com/108327522/180156830-6d81393a-e181-4ea4-9cc5-3514d72e81d6.jpg)
+![Screenshot 2022-07-21 163515](https://user-images.githubusercontent.com/108327522/180169572-a98ef88a-723e-4aae-9fb6-671ac7ba54a2.jpg)
 ![Screenshot 2022-07-21 153318](https://user-images.githubusercontent.com/108327522/180156837-8ca018ba-bb74-4878-966e-fa12d3b9bc67.jpg)
+![Screenshot 2022-07-21 163529](https://user-images.githubusercontent.com/108327522/180169628-3cc17585-90e9-454c-9d14-60b28f92ea87.jpg)
 
 Each empty field will have their own error message.
 
 These are the samples of error message
 ![Screenshot 2022-07-21 151740](https://user-images.githubusercontent.com/108327522/180153631-f0b91535-7d6a-43a7-acf7-da04f4dca935.jpg)
-![Screenshot 2022-07-21 153521](https://user-images.githubusercontent.com/108327522/180156884-e409ef6a-b5ec-480e-9ac9-ddf97364213d.jpg)
+
 
 
 It is made possible by using ToastController.
