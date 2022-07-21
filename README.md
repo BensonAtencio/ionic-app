@@ -16,10 +16,10 @@ these are the samples of error message
 
 It is made possible by using ToastController.
 
-this is just a snippet of the condition that i use
+this is just a snippet of the condition that I use
 ![Screenshot 2022-07-21 151432](https://user-images.githubusercontent.com/108327522/180152909-40411d32-5fd9-4e6d-8f2e-74f5e897e2c8.jpg)
 
-if that condition is satisfied i routed the buttons in order to go to the homepage
+if that condition is satisfied I routed the buttons in order to go to the homepage
 ![Screenshot 2022-07-21 152157](https://user-images.githubusercontent.com/108327522/180154210-ef299c5f-e938-4183-a2ab-66ed653fa034.jpg)
 
 this is what my homepage looks like
