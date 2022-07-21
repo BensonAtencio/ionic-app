@@ -12,6 +12,8 @@ Each empty field will have their own error message.
 
 These are the samples of error message
 ![Screenshot 2022-07-21 151740](https://user-images.githubusercontent.com/108327522/180153631-f0b91535-7d6a-43a7-acf7-da04f4dca935.jpg)
+![Screenshot 2022-07-21 153521](https://user-images.githubusercontent.com/108327522/180169827-fa05efe6-98f2-4e32-aea3-2522a56ce287.jpg)
+![Screenshot 2022-07-21 163635](https://user-images.githubusercontent.com/108327522/180169846-fd3b44b8-ebaa-4b17-a476-c9e60c16d86b.jpg)
 
 
 
