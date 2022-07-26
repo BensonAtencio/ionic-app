@@ -32,4 +32,15 @@ This is what my homepage looks like
 I also change the app-routing so that it will go to the login page directly after opening it to the localhost
 ![Screenshot 2022-07-21 152213](https://user-images.githubusercontent.com/108327522/180154706-e64192ba-e836-452c-b3fd-213c110100c4.jpg)
 
+I added two new buttons one is for the popover and one is for the action sheet
+![Screenshot 2022-07-26 171052](https://user-images.githubusercontent.com/108327522/180969840-44d06ab9-335f-48c7-b6fa-de12a968463c.jpg)
+
+This is what the popover looks like
+![Screenshot 2022-07-26 170301](https://user-images.githubusercontent.com/108327522/180969956-b74d5adc-e808-4842-9013-aba824d7a49b.jpg)
+
+This is the action sheet
+![Screenshot 2022-07-26 170141](https://user-images.githubusercontent.com/108327522/180970153-6632207e-cd24-4cd2-9c9d-cc55e2fe19bf.jpg)
+
+
+
 
