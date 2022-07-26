@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PopoverController, ActionSheetController } from '@ionic/angular';
+import { PopoverController, ActionSheetController, AlertController } from '@ionic/angular';
 import { PopoverComponent } from '../components/popover/popover.component';
 
 
@@ -10,7 +10,7 @@ import { PopoverComponent } from '../components/popover/popover.component';
 })
 export class HomePage {
 
-  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController) {}
+  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController, public alertCtrl: AlertController) {}
 
   async menu(event){
     const popover = await this.popoverCtrl.create({
@@ -27,14 +27,24 @@ export class HomePage {
       buttons: [{
         text: 'Delete',
         icon: 'trash',
-        handler: () => {
-          console.log('Delete clicked');
+        handler: async () => {
+          const alert = await this.alertCtrl.create({
+            header: 'Alert',
+            message: 'Deleted Successfully',
+            buttons: ['ok']
+          });
+          await alert.present();
         }
       }, {
         text: 'Share',
         icon: 'share',
-        handler: () => {
-          console.log('Share clicked');
+        handler: async () => {
+          const alert = await this.alertCtrl.create({
+            header: 'Alert',
+            message: 'Shared Successfully',
+            buttons: ['ok']
+          });
+          await alert.present();
         }
       }, {
         text: 'Play (open modal)',
@@ -45,8 +55,13 @@ export class HomePage {
       }, {
         text: 'Favorite',
         icon: 'heart',
-        handler: () => {
-          console.log('Favorite clicked');
+        handler: async () => {
+          const alert = await this.alertCtrl.create({
+            header: 'Alert',
+            message: 'Added to Favorites',
+            buttons: ['ok']
+          });
+          await alert.present();
         }
       }, {
         text: 'Cancel',
