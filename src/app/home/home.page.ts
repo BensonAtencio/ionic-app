@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { PopoverController, ActionSheetController, AlertController } from '@ionic/angular';
+import { PopoverController, ActionSheetController, AlertController, ModalController } from '@ionic/angular';
+import { ModalComponent } from '../components/modal/modal.component';
 import { PopoverComponent } from '../components/popover/popover.component';
 
 
@@ -10,7 +11,7 @@ import { PopoverComponent } from '../components/popover/popover.component';
 })
 export class HomePage {
 
-  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController, public alertCtrl: AlertController) {}
+  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController, public alertCtrl: AlertController, private modalCtrl: ModalController) {}
 
   async menu(event){
     const popover = await this.popoverCtrl.create({
@@ -19,6 +20,15 @@ export class HomePage {
     });
     return await popover.present();
 
+  }
+
+  async openModal(){
+    const modal = await this.modalCtrl.create({
+      component: ModalComponent,
+    });
+    modal.present();
+
+    const { data, role } = await modal.onWillDismiss();
   }
 
   async presentActionSheet() {
@@ -47,10 +57,10 @@ export class HomePage {
           await alert.present();
         }
       }, {
-        text: 'Play (open modal)',
+        text: 'Music (open modal)',
         icon: 'caret-forward-circle',
         handler: () => {
-          console.log('Play clicked');
+          this.openModal();
         }
       }, {
         text: 'Favorite',
