@@ -56,7 +56,7 @@ export class RegisterPage implements OnInit {
     });
     (await toast).present();
   }else{
-    this.router.navigate(['home'])
+    this.router.navigate(['login'])
   }
 }
 

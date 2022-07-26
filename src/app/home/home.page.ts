@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { PopoverController, ModalController } from '@ionic/angular';
+import { PopoverComponent } from '../components/popover/popover.component';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(public popoverCtrl: PopoverController) {}
+
+  async menu(event){
+    const popover = await this.popoverCtrl.create({
+      component: PopoverComponent,
+      event
+    });
+    return await popover.present();
+
+  }
 
 }
