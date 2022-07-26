@@ -11,17 +11,17 @@
             <ion-label position="floating">Birthdate</ion-label>
             <ion-input type="date" placeholder="none" [(ngModel)]="bdate"></ion-input>
           </ion-item>
-          <ion-radio-group>
+          <ion-radio-group [(ngModel)]="gender">
             <ion-list-header>
-              <ion-label>Gender (optional)</ion-label>
+              <ion-label>Gender</ion-label>
             </ion-list-header>
             <ion-item>
               <ion-label>Male <ion-icon name="male"></ion-icon></ion-label>
-              <ion-radio slot="start"></ion-radio>
+              <ion-radio slot="start" value="male"></ion-radio>
             </ion-item>
             <ion-item>
               <ion-label>Female <ion-icon name="female"></ion-icon></ion-label>
-              <ion-radio slot="start"></ion-radio>
+              <ion-radio slot="start" value="female"></ion-radio>
             </ion-item>
           </ion-radio-group>
           <ion-item>

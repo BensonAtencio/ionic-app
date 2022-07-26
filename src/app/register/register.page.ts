@@ -12,12 +12,11 @@ export class RegisterPage implements OnInit {
   username: string = "";
   email: string = "";
   bdate: any = "";
-  mgender: string ="";
-  fgender: string ="";
+  gender: string ="";
   password: string = "";
   rpassword: string = "";
 
-  constructor(private router: Router, public toastCtrl: ToastController) { }
+  constructor(private router: Router, public toastCtrl: ToastController, public navCtrl: NavController) { }
 
   async register(){
     if(this.username == ""){
@@ -32,13 +31,7 @@ export class RegisterPage implements OnInit {
       duration: 3000
     });
     (await toast).present();
-  }else if(this.mgender==""){
-    const toast = this.toastCtrl.create({
-      message: 'Gender cannot be empty',
-      duration: 3000
-    });
-    (await toast).present();
-  }else if(this.fgender==""){
+  }else if(this.gender==""){
     const toast = this.toastCtrl.create({
       message: 'Gender cannot be empty',
       duration: 3000
