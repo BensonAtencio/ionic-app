@@ -26,7 +26,8 @@ If that condition is satisfied I routed the buttons in order to go to the homepa
 ![Screenshot 2022-07-21 152157](https://user-images.githubusercontent.com/108327522/180154210-ef299c5f-e938-4183-a2ab-66ed653fa034.jpg)
 
 This is what my homepage looks like
-![Screenshot 2022-07-21 152330](https://user-images.githubusercontent.com/108327522/180154493-faf6427f-b40e-4ccf-9175-50d1a9d89b39.jpg)
+![Screenshot 2022-07-26 170116](https://user-images.githubusercontent.com/108327522/180969349-9a9212e0-ccd3-44c7-bf0e-f1f90431f47b.jpg)
+
 
 I also change the app-routing so that it will go to the login page directly after opening it to the localhost
 ![Screenshot 2022-07-21 152213](https://user-images.githubusercontent.com/108327522/180154706-e64192ba-e836-452c-b3fd-213c110100c4.jpg)
