@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { PopoverController, ActionSheetController, AlertController, ModalController } from '@ionic/angular';
 import { ModalComponent } from '../components/modal/modal.component';
 import { PopoverComponent } from '../components/popover/popover.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,7 @@ import { PopoverComponent } from '../components/popover/popover.component';
 })
 export class HomePage {
 
-  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController, public alertCtrl: AlertController, private modalCtrl: ModalController) {}
+  constructor(public popoverCtrl: PopoverController, public actionSheetCtrl: ActionSheetController, public alertCtrl: AlertController, private modalCtrl: ModalController, private router: Router) {}
 
   async menu(event){
     const popover = await this.popoverCtrl.create({
@@ -81,6 +82,10 @@ export class HomePage {
       }]
     });
     await actionSheet.present();
+  }
+
+  trivias(){
+    this.router.navigate(['trivia'])
   }
 
 }
