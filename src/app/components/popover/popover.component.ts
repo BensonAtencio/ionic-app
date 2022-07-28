@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PopoverController, AlertController } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 @Component({
   selector: 'app-popover',
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
 export class PopoverComponent implements OnInit {
 
 
-  constructor(public popoverCtrl: PopoverController, private alertCtrl: AlertController, private router: Router) { }
+  constructor(public popoverCtrl: PopoverController, private alertCtrl: AlertController, private router: Router, public afauth: AngularFireAuth) { }
 
   ngOnInit() {}
 
@@ -25,6 +26,7 @@ export class PopoverComponent implements OnInit {
       buttons: ['ok']
     });
     await alert.present();
+    this.afauth.signOut();
     this.router.navigate(['/login']);
     this.popoverCtrl.dismiss();
   }

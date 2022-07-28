@@ -3,7 +3,6 @@ import { PopoverController, ActionSheetController, AlertController, ModalControl
 import { ModalComponent } from '../components/modal/modal.component';
 import { PopoverComponent } from '../components/popover/popover.component';
 
-
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
