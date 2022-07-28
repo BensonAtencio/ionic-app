@@ -6,7 +6,6 @@ I only have a plain design but to make up for that I make sure that the forms wo
 
 ![Screenshot 2022-07-26 153047](https://user-images.githubusercontent.com/108327522/180949275-ac159949-13b3-4a1f-a96b-089854ca5ceb.jpg)
 ![Screenshot 2022-07-21 153318](https://user-images.githubusercontent.com/108327522/180156837-8ca018ba-bb74-4878-966e-fa12d3b9bc67.jpg)
-![Screenshot 2022-07-21 163529](https://user-images.githubusercontent.com/108327522/180169628-3cc17585-90e9-454c-9d14-60b28f92ea87.jpg)
 
 Each empty field will have their own error message.
 
