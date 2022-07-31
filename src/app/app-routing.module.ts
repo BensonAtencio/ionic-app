@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'trivia',
     loadChildren: () => import('./trivia/trivia.module').then( m => m.TriviaPageModule)
+  },
+  {
+    path: 'news',
+    loadChildren: () => import('./news/news.module').then( m => m.NewsPageModule)
   }
 ];
 

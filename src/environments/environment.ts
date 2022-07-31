@@ -11,7 +11,10 @@ export const environment = {
     storageBucket: "ionic-app-activity.appspot.com",
     messagingSenderId: "521813773056",
     appId: "1:521813773056:web:07252a3454e698463a41e5"
-  }
+  },
+
+  // for news api only
+  apiKey: '0c3391e09daa4eaba27ff2482a115275'
 };
 
 /*

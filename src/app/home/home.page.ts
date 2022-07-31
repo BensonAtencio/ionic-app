@@ -88,4 +88,8 @@ export class HomePage {
     this.router.navigate(['trivia'])
   }
 
+  news(){
+    this.router.navigate(['/news'])
+  }
+
 }
