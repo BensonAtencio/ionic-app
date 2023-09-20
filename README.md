@@ -1,4 +1,6 @@
-# ionic-app
+# learning ionic
+
+## learning to create a web app using ionic that shows random trivias, for our application development project
 
 ## A simple form using ionic framework
 
